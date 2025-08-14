@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maa Sarda CSC Center</title>
+  <style>
+    body {font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9;}
+    header {background: #0066cc; color: #fff; padding: 20px; text-align: center;}
+    header h1 {margin: 0;}
+    nav {background: #004080; padding: 10px; text-align: center;}
+    nav a {color: white; margin: 0 15px; text-decoration: none; font-weight: bold;}
+    section {padding: 20px; max-width: 1000px; margin: auto;}
+    .services {display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px;}
+    .card {background: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);}
+    footer {background: #333; color: white; text-align: center; padding: 15px; margin-top: 20px;}
+    .contact-form {background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);}
+    input, textarea {width: 100%; padding: 10px; margin: 5px 0; border-radius: 5px; border: 1px solid #ccc;}
+    button {background: #0066cc; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;}
+    button:hover {background: #004080;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Maa Sarda CSC Center</h1>
+    <p>Owner: Mukesh Thakur | Opening Hours: 7 AM – 9 PM</p>
+    <p>Address: Gadha, Dhaunshi High School wali road, Sitamarhi, Bihar</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+    <a href="#location">Location</a>
+  </nav>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">Aadhaar Services (Update, Print, Enrolment)</div>
+      <div class="card">PAN Card Services</div>
+      <div class="card">Passport Apply</div>
+      <div class="card">Rail, Bus & Flight Ticket Booking</div>
+      <div class="card">Bill Payments (Electricity, Gas, Water, Mobile Recharge)</div>
+      <div class="card">Banking Services (Deposit, Withdrawal, Balance Check)</div>
+      <div class="card">Insurance Services</div>
+      <div class="card">Government Schemes (PM Kisan, Pension, Scholarship, etc.)</div>
+      <div class="card">Online Form Filling & Printing</div>
+      <div class="card">Other CSC Services</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-form">
+      <p>Email: <a href="mailto:gk834692@gmail.com">gk834692@gmail.com</a></p>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="location">
+    <h2>Find Us</h2>
+    <iframe src="https://www.google.com/maps?q=Sitamarhi+Bihar&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Maa Sarda CSC Center | Designed for Sitamarhi, Bihar</p>
+  </footer>
+</body>
+</html>
